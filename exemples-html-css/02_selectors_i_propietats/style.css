@@ -1,0 +1,65 @@
+/* Selector simple pel nom d'etiqueta */
+h1 {
+    /* Color de la lletra */
+    color: red;
+
+    /* Alineació del text: left, right, center, justify */
+    text-align: center;
+
+    /* Color de fons */
+    background-color: yellow;
+
+    /* Mida de la lletra */
+    font-size: 20px;
+
+    /* Decoració del text: line-through, underline, overline, none */
+    text-decoration: line-through;
+}
+
+/* Selector de classe */
+.majuscules {
+    /* Transforma el text: uppercase, lowercase, capitalize */
+    text-transform: uppercase;
+
+    /* Afegeix una ombra desplaçada 2px a l'esquerra, 3 cap a sota, amb un blur de 5 i de color vermell */
+    text-shadow: 2px 3px 5px red;
+
+    /* Color de fons en format RGB */
+    background-color: rgb(100, 200, 250);
+}
+
+/* Selector de id */
+#font-sans-serif {
+    /* Font de tipus sans serif */
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* Color de lletra amb transparència */
+    color: rgba(7, 41, 190, 0.5);
+
+    /* Color de fons en format hexadecimal */
+    background-color: #f36f7a;
+}
+
+/* Selector d'agrupació */
+h2, h3 {
+    /* Text en negreta */
+    font-weight: bold;
+
+    /* Decoració del text: line-through, underline, overline, none */
+    text-decoration: underline;
+}
+
+/* Selector simple pel nom d'etiqueta */
+h4 {
+    /* Mida del text el 5% de l'amplada de la finestra */
+    font-size: 5vw;
+}
+
+/* Selector descendent */
+h4 span {
+    /* Text en cursiva */
+    font-style: italic;
+
+    /* Text el doble de gran del que li tocaria */
+    font-size: 2em;
+}

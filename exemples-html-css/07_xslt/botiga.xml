@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="botiga.xsl"?>
+<botiga>
+	<bluray>
+		<titol idioma="ca">Avatar</titol>
+		<director>J. Cameron</director>
+		<preu>21</preu>
+		<any>2009</any>
+	</bluray>
+	<bluray>
+		<titol idioma="en">Zombieland</titol>
+		<director>R. Fleischer</director>
+		<preu>16</preu>
+		<any>2009</any>
+	</bluray>
+	<bluray>
+		<titol idioma="es">REC</titol>
+		<director>19:14 15/02/2011</director>
+		<preu>13</preu>
+		<any>2007</any>
+	</bluray>
+	<bluray>
+		<titol idioma="ca">REC2</titol>
+		<director>Balaguero, Plaza</director>
+		<preu>17</preu>
+		<any>2009</any>
+	</bluray>
+	<bluray>
+		<titol idioma="en">La herencia</titol>
+		<director>Stephen</director>
+		<preu>17</preu>
+		<any>2010</any>
+	</bluray>
+	<bluray>
+		<titol idioma="ca">Even the Rain</titol>
+		<director>Thomas Edison</director>
+		<preu>11</preu>
+		<any>2005</any>
+	</bluray>
+	<bluray>
+		<titol idioma="en">Black Bread</titol>
+		<director>Vila</director>
+		<preu>7</preu>
+		<any>2010</any>
+	</bluray>
+</botiga>

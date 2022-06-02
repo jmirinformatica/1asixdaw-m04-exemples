@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-size: 12px;
+}
+
+h2 {
+    font-size: 5em;
+}
+
+div {
+    background-color: lightblue;
+    padding: 20px;
+    border: 1px solid red;
+}
+
+.caixa1 {
+    position: static;
+}
+
+.caixa8 {
+    position: relative;
+    background-color: green;
+    left: 500px;
+    top: 100px;
+}
+
+.caixa5 {
+    position: absolute;
+    background-color: yellow;
+    top: 120px;
+    left:300px;
+}
+
+.caixa6 {
+    position: fixed;
+    background-color: orange;
+    top: 300px;
+    left: 50px;
+}
+
+.caixa3 {
+    background-color: pink;
+    position: sticky;
+    top: 0;
+}

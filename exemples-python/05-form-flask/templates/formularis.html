@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='/static/css/style.css' rel='stylesheet'>
+    <title>Formularis</title>
+</head>
+<body>
+    <h1>Exemples de formularis</h1>
+    <hr />
+    <h2>Fomulari GET</h2>
+    <form method="get" action="/exemple-de-get">
+        <p><label> Nom: <input type="text" name="nom" /></label></p>
+        <p><label> Edat: <input type="number" name="edat-en-anys" /></label></p>
+        <p>
+            <label> Color preferit (pots triar-ne més d'un): 
+                <br/>
+                <select name="colors-preferits" multiple>
+                    <option value="red">Vermell</option>
+                    <option value="green">Verd</option>
+                    <option value="blue">Blau</option>
+                </select>
+            </label>
+        </p>
+        <p><input type="submit" value="Envia" /></p>
+    </form>
+    <hr />
+    <h2>Fomulari POST</h2>
+    <form method="post" action="/exemple-de-post">
+        <p><label>Ciutat preferida: <input type="text" name="ciutat" /></label></p>
+        <p><label>Fes click aquí si has visitat la ciutat més d'una vegada:  <input type="checkbox" name="multiples-visites" value="sí"/></label></p>
+        <p>
+            Tornaries a visitar la ciutat?
+            <br /><label>Sí <input type="radio" name="tornaria" value="sí" checked/></label>
+            <br /><label>No <input type="radio" name="tornaria" value="no" /></label>
+            <br /><label>No ho sé <input type="radio" name="tornaria" value="no-ho-sé" /></label>
+            <br /><label>Comenaris: <textarea name="comentaris"></textarea></label>
+        </p>
+        <p><input type="submit" value="Envia" /></p>
+    </form>
+    <hr />
+    <h2>Fomulari POST amb FITXERS</h2>
+    <form method="post" action="/exemple-de-post-amb-fitxers" enctype="multipart/form-data">
+        <p><label>Fitxer: <input type="file" name="fitxer" /></label></p>
+        <p><input type="submit" value="Envia" /></p>
+    </form>
+    <hr />
+</body>
+</html>

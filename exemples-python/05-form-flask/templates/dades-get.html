@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='/static/css/style.css' rel='stylesheet'>
+    <title>Dades dels formulari GET</title>
+</head>
+<body>
+    <h1>Dades rebudes del formulari GET</h1>
+    
+    <p>Et dius {{nom}}, tens {{edat}} anys i el teus colors preferits són:</p>
+    <ul>
+        {% for color in colors %}
+            <li>{{color}}</li>
+        {% endfor %}
+    </ul>
+
+    <p><a href="/">&lt;&lt; Torna als formularis</a></p>
+</body>
+</html>

@@ -1,0 +1,8 @@
+body {
+    background-color: lightpink;
+    margin: 0;
+}
+.banner {
+    width: 100vw;
+    display: block;
+}

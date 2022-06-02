@@ -1,0 +1,16 @@
+.article {
+    border: 1px solid black;
+    overflow: auto;
+    width: 90%;
+    margin: auto;
+    text-align: justify;
+    padding: 10px;
+}
+
+.article img {
+    width:  100px;
+    margin-right: 10px;
+    float: left;
+    /* AMB EL CLEAR LEFT ACONSEGUEIXO QUE UNA FOTO ES POSI A SOTA DE L'ALTRE */
+    clear: left;
+}

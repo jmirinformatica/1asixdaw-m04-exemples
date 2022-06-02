@@ -1,0 +1,69 @@
+
+body {
+    /* https://www.w3schools.com/css/css_background.asp */
+    background-color: lightgreen;
+    background-image: url(img/monkey.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 100px;
+    background-attachment: fixed;
+}
+
+.exemple1 {
+    background-color: yellow;
+
+    height: 300px;
+
+    text-align: right;
+    color: red;
+
+    border: 1px solid red;
+    border-bottom: none;
+
+    padding: 20px;
+    
+    margin: 200px;
+}
+
+.exemple2 {
+    /* https://www.w3schools.com/css/css3_gradients.asp */
+    background-image: linear-gradient(rgb(147, 147, 255), rgb(255, 74, 74));
+
+    text-align: center;
+    font-size: 0.5em;
+
+    border-top: 4px dotted green;
+    border-left: 2px dashed rgb(147, 147, 255);
+    border-right: 10px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 5px double blue;
+
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    
+    margin-top: 100px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 30px;
+}
+
+.exemple3 {
+    background-image: url(img/pattern.jpg);
+
+    background-size: 50px;
+
+    width: 60%;
+    
+    text-align: justify;
+    font-size: 2em;
+    font-weight: bold;
+    color: blueviolet;
+
+    border: 1px solid black;
+    border-radius: 20px;
+    
+    padding: 10px;
+
+    margin: auto;
+}

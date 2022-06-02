@@ -1,0 +1,72 @@
+.exemple1 {
+    display: flex;
+    background-color: aquamarine;
+    margin-bottom: 20px;
+}
+/* 
+el selector ">" selecciona els div que són fills DIRECTES d'un element amb classe .flex1 
+https://www.w3schools.com/cssref/sel_element_gt.asp
+*/
+.exemple1 > div {
+    width: 100px;
+    background-color: red;
+    border: 1px solid black;
+    width: 40px;
+    margin: 10px;
+}
+
+.exemple2 {
+    display: flex;
+    background-color: lightgreen;
+    margin-bottom: 20px;
+    /* 
+    Indica la direcció. Els valors poden ser row, column, row-reverse i column-reverse.
+    Pot ser util per situacions on vols mostrar les caixes en fila si la pantalla és gran i,
+    si la pantalla és petita (mòbil), vols que es mostrin en columna, un sota de l'altre
+    https://www.w3schools.com/css/tryit.asp?filename=trycss_mediaqueries_flex
+    */ 
+    flex-direction: column;
+}
+.exemple2 > div {
+    background-color: red;
+    border: 1px solid black;
+    width: 40px;
+    margin: 10px;
+}
+
+.exemple3 {
+    display: flex;
+    background-color: lightpink;
+    margin-bottom: 20px;
+    flex-direction: row-reverse;
+    /*
+    Indica si els elements han de quedar-se a la seva línea o poden ocupar-ne mes
+    Els valors poden ser wrap, no-wrap i wrap-reverse
+    */
+    flex-wrap: wrap;
+}
+.exemple3 > div {
+    background-color: red;
+    border: 1px solid black;
+    width: 300px;
+    margin: 10px;
+}
+
+.exemple4 {
+    display: flex;
+    background-color: lightskyblue;
+    margin-bottom: 20px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    /*
+    Indica com s'han de distribuir els items a la linea que ocupen
+    Els valors poden ser flex-start, flex-end, center, space-between, space-around i space-evenly
+    */
+    justify-content: space-evenly;
+}
+.exemple4 > div {
+    background-color: red;
+    border: 1px solid black;
+    width: 50px;
+    margin: 10px;
+}

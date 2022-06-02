@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='/static/css/style.css' rel='stylesheet'>
+    <title>Dades dels formulari POST amb FITXERS</title>
+</head>
+<body>
+    <h1>Dades rebudes del formulari POST amb FITXERS</h1>
+    <div class="img-container">
+        {% if ruta_fitxer %}
+            <a href="{{ruta_fitxer}}" download>
+                <img src="{{ruta_imatge}}" />
+            </a>
+        {% else %}
+            <p>Error amb el fitxer</p>
+            <img src="{{ruta_imatge}}" />
+        {% endif %}
+    </div>
+    <p><a href="/">&lt;&lt; Torna als formularis</a></p>
+</body>
+</html>

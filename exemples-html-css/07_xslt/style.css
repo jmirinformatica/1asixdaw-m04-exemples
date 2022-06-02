@@ -1,0 +1,13 @@
+body {
+    background-color: lightblue;    
+}
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: auto;
+}
+
+td, th {
+    border: 1px solid red;
+}

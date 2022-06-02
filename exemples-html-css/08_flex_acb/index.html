@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex ACB</title>
+    
+    <style>
+        /* Per simplicitat estic fent servir CSS intern */
+        
+        /* caixa principal centrada */
+        main {
+            width: 90%;
+            margin: auto;
+        }
+
+        /* estructura en 3 columnes*/
+        article {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        article > section {
+            /* el truc és aquest: 100/3 = 33'33 */
+            width: 33.33%;
+        }
+
+        /* @media screen and (max-width: 600px) {
+            article > section {
+                width: 50%;
+            }
+        }
+
+        @media screen and (max-width: 300px) {
+            article > section {
+                width: 100%;
+            }
+        } */
+
+        header div {
+            border: 1px solid green;
+            background-color: lightgreen;
+            margin: 2px;
+        }
+
+        article div {
+            border: 1px solid blue;
+            background-color: lightblue;
+            margin: 2px;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <main>
+        <header>
+            <section>
+                <div>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat eos debitis sit esse adipisci aspernatur obcaecati unde accusantium libero consectetur, quae alias corporis facilis illo nobis a temporibus reprehenderit non.
+                </div>
+            </section>
+        </header>
+        <article>
+            <section>
+                <div>
+                    1: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat eos debitis sit esse adipisci aspernatur obcaecati unde accusantium libero consectetur, quae alias corporis facilis illo nobis a temporibus reprehenderit non.
+                </div>
+            </section>
+            <section>
+                <div>
+                    2: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat eos debitis sit esse adipisci aspernatur obcaecati unde accusantium libero consectetur, quae alias corporis facilis illo nobis a temporibus reprehenderit non.
+                </div>
+            </section>
+            <section>
+                <div>
+                    3: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat eos debitis sit esse adipisci aspernatur obcaecati unde accusantium libero consectetur, quae alias corporis facilis illo nobis a temporibus reprehenderit non.
+                </div>
+            </section>
+            <section>
+                <div>
+                    4: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat eos debitis sit esse adipisci aspernatur obcaecati unde accusantium libero consectetur, quae alias corporis facilis illo nobis a temporibus reprehenderit non.
+                </div>
+            </section>
+            <section>
+                <div>
+                    5: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat eos debitis sit esse adipisci aspernatur obcaecati unde accusantium libero consectetur, quae alias corporis facilis illo nobis a temporibus reprehenderit non.
+                </div>
+            </section>
+            <section>
+                <div>
+                    6: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat eos debitis sit esse adipisci aspernatur obcaecati unde accusantium libero consectetur, quae alias corporis facilis illo nobis a temporibus reprehenderit non.
+                </div>
+            </section>   
+        </article>
+    </main>
+</body>
+
+</html>
